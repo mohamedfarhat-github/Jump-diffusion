@@ -18,7 +18,6 @@ from binance.client import Client
 from datetime import timedelta, datetime
 from dateutil import parser
 from tqdm import tqdm_notebook #(Optional, used for progress-bars)
-os.chdir("/home/mohamed/Desktop/Folders/Ether")
 ### API
 bitmex_api_key = ''    #Enter your own API-key here
 bitmex_api_secret = '' #Enter your own API-secret here
