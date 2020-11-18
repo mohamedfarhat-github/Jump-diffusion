@@ -1,10 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Jul  2 16:27:49 2020
-
-@author: mohamed
-"""
 # importing necessary libraries
 import gc
 import pandas as pd
@@ -116,7 +109,7 @@ def cuml6(data):
 ################################ Data processing and parameters estimation #############################
     
 # Getting the exchange rate data DAI-ETHER
-df = pd.read_csv(r'/home/mohamed/Desktop/Folders/Ether/ETHDAI-1m-data.csv')
+df = pd.read_csv('')
 
 # Plotting the exchange rate of DAI / Ether from 19/11/2019 to 26/06/2020
 plt.figure()
