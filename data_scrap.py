@@ -20,10 +20,10 @@ from dateutil import parser
 from tqdm import tqdm_notebook #(Optional, used for progress-bars)
 os.chdir("/home/mohamed/Desktop/Folders/Ether")
 ### API
-bitmex_api_key = 'UDInn9tWcyDboQ0lUZgSwErb'    #Enter your own API-key here
-bitmex_api_secret = 'u4dK-bYQO72h_oYS0U7lodd3zLZIEpCEEge1tDUD12LDc9Zr' #Enter your own API-secret here
-binance_api_key = '920RNq81jvUJ0zECHkq720hSG186bY2qG40SPi7Uxgo7sBN2Yi4sQuQ0S3f7Y1jN'    #Enter your own API-key here
-binance_api_secret = 'qWwAooxbQH8CZlN2yQTU831ekQTf3PNwPLuqkw9sPEGTa21dehD4HEMCOvJaco0B' #Enter your own API-secret here
+bitmex_api_key = ''    #Enter your own API-key here
+bitmex_api_secret = '' #Enter your own API-secret here
+binance_api_key = ''    #Enter your own API-key here
+binance_api_secret = '' #Enter your own API-secret hereqWwAooxbQH8CZlN2yQTU831ekQTf3PNwPLuqkw9sPEGTa21dehD4HEMCOvJaco0B
 
 ### CONSTANTS
 binsizes = {"1m": 1, "5m": 5, "1h": 60, "1d": 1440}
